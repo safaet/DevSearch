@@ -27,6 +27,8 @@
 # User Inbox
 <img src="./resources/images/Devsearch Inbox.jpg">
 
+# Setup
+
 Update the System
 ```bash
 sudo apt-get update
