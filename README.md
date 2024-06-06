@@ -39,14 +39,18 @@ git clone https://github.com/safaet/DevSearch.git
 ```
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
-Download django usig pip
+Download django using pip
 ```bash
 sudo apt install python3-pip -y
 ```
 ```bash
 pip install django
 ```
-Once you have downloaded django, go to the cloned repo directory and run the following command
+Install all Dependencies
+```bash
+pip install requirements.txt
+```
+Once you have downloaded django, go to the cloned repository directory and run the following command
 
 ```bash
 python3 manage.py makemigrations
